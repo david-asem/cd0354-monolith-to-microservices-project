@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Configmap
+metadata: 
+  name: configuration
+data:
+  postgres_host: db1.cbxzoaqwnccm.us-east-2.rds.amazonaws.com
+  postgres_db: davidasemdb
+  aws_bucket: arn:aws:s3:::davidasembucket
+  aws_region: us-west-2
+  aws_profile: default
